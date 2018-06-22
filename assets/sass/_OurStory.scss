@@ -1,0 +1,55 @@
+#OurStory{
+  padding: 200px 0;
+
+
+  .quote{
+    line-height:1.6;
+    color: grey;
+    font-style: italic;
+    margin-bottom: 3rem;
+
+    strong{
+      font-weight: 700;
+      color: black;
+    }
+  }
+
+  .reserve-btn{
+    padding: 20px 40px;
+    //min-width: 200px;
+    color: black;
+    display: inline-block;
+    border: 1px solid #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $displayFont;
+    transition: all 0.5s ease-in-out;
+    strong{
+      font-weight: 700;
+      color: black;
+    }
+
+
+ &:hover{
+      background: $hovercolor;
+      transition: all 0.5s ease-in-out;
+ }
+
+
+  }
+  .video-img{
+    max-width: 400px;
+    height:550px;
+    position: relative;
+    background: black;
+    height: 500px;
+    background: linear-gradient(120deg,rgba(0,0,0,.2) 0,#002d77 100%);
+    background-image: linear-gradient(120deg,rgba(0,0,0,.2) 0,#000 100%),url("https://static1.squarespace.com/static/594793e220099ea2022ec0be/t/5a7c7a8c71c10bb6b362c970/1518107294532/Moroccan+Cooking+Class+Fez");
+    background-size: cover;
+    background-position: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}

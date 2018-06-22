@@ -1,0 +1,70 @@
+#TopImg{
+  position: relative;
+  background: black;
+  min-height: 500px;
+  height: 100vh;
+  background: linear-gradient(120deg,rgba(0,0,0,.2) 0,#002d77 100%);
+  background-image: linear-gradient(120deg,rgba(0,0,0,.2) 0,#000 100%),url("http://cookingtheglobe.com/wp-content/uploads/2016/05/moroccan-breakfast.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+.title{
+
+  padding: 200px 0 80px;
+  text-align: right;
+
+  h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300px;
+    font-size: 4.5rem;
+    font-family: $displayFont;
+    text-align: right;
+  }
+
+
+
+  h5{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    text-align: right;
+  }
+}
+  .contact-info{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    right:0;
+    text-align: right;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+
+    strong{
+      font-weight: bold;
+}
+
+  .booking{
+    margin-bottom: 15px;
+
+  }
+
+
+    h2{
+      font-size: 2rem;
+      margin-bottom: 25px;
+      color: grey;
+      text-align: right;
+
+    }
+
+
+
+  }
+
+}

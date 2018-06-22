@@ -1,0 +1,42 @@
+h5{
+
+  color: grey;
+  font-size: 0.8rem;
+  margin:0.5rem 0 .7rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h2{
+  font-family: $displayFont;
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin:1.5rem 0 3rem;
+
+
+}
+p{
+  font-size: 1.1rem;
+  color: grey;
+  line-height:1.6;
+  margin:1.5rem 0 3rem;
+  font-weight: 300;
+
+}
+
+strong{
+  font-weight: 600;
+
+}
+
+
+.texturebg{
+  background: linear-gradient(120deg,rgba(0,0,0,.2) 0,#002d77 100%);
+  background-image:url("https://totaltileslive-nf43pk6hae7pvvm6g.netdna-ssl.com/media/product/703/energy-light-grey-concrete-effect-porcelain-floor-tile-909.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  //-o-background-size: cover;
+//  background-size: cover;
+background-repeat: repeat;
+
+}

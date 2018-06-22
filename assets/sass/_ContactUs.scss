@@ -1,0 +1,51 @@
+#ContactUs{
+  padding: 110px 0;
+
+}
+
+h2, h5{
+
+  text-align: center;
+}
+
+
+.box{
+  background: #fff;
+  padding: 70px;
+
+.titlec{
+  font-size: 2rem;
+  font-family: $displayFont;
+  margin-bottom: 2rem;
+
+}
+
+h6{
+  font-size: .8rem;
+  font-weight: 600;
+  color: black;
+  line-height: 1.8;
+}
+
+p{
+  strong{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+}
+
+
+
+a{
+  color: grey;
+}
+
+.pcontact{
+  font-weight: 400;
+  font-size: .8rem;
+margin-bottom: 2rem;
+}
+
+
+}
