@@ -1,14 +1,6 @@
 webpackJsonp([0],[
 /* 0 */,
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42,7 +34,7 @@ var actions = exports.actions = {
 };
 
 /***/ }),
-/* 10 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55,35 +47,35 @@ exports.default = App;
 
 var _hyperapp = __webpack_require__(0);
 
-var _Header = __webpack_require__(15);
+var _Header = __webpack_require__(6);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _TopImg = __webpack_require__(20);
+var _TopImg = __webpack_require__(11);
 
 var _TopImg2 = _interopRequireDefault(_TopImg);
 
-var _OurStory = __webpack_require__(16);
+var _OurStory = __webpack_require__(7);
 
 var _OurStory2 = _interopRequireDefault(_OurStory);
 
-var _SpecialMenu = __webpack_require__(19);
+var _SpecialMenu = __webpack_require__(10);
 
 var _SpecialMenu2 = _interopRequireDefault(_SpecialMenu);
 
-var _RandomQuote = __webpack_require__(17);
+var _RandomQuote = __webpack_require__(8);
 
 var _RandomQuote2 = _interopRequireDefault(_RandomQuote);
 
-var _Reviews = __webpack_require__(18);
+var _Reviews = __webpack_require__(9);
 
 var _Reviews2 = _interopRequireDefault(_Reviews);
 
-var _ContactUs = __webpack_require__(13);
+var _ContactUs = __webpack_require__(4);
 
 var _ContactUs2 = _interopRequireDefault(_ContactUs);
 
-var _Footer = __webpack_require__(14);
+var _Footer = __webpack_require__(5);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -108,7 +100,7 @@ function App(_ref) {
 }
 
 /***/ }),
-/* 11 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -162,8 +154,7 @@ var globalState = exports.globalState = {
 };
 
 /***/ }),
-/* 12 */,
-/* 13 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -276,7 +267,7 @@ function ContactUs(_ref) {
 }
 
 /***/ }),
-/* 14 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -378,7 +369,7 @@ function Footer(_ref) {
 }
 
 /***/ }),
-/* 15 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -440,7 +431,7 @@ function Header(_ref) {
 }
 
 /***/ }),
-/* 16 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -515,7 +506,7 @@ function OurStory(_ref) {
 }
 
 /***/ }),
-/* 17 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -553,7 +544,7 @@ function RandomQuote(_ref) {
 }
 
 /***/ }),
-/* 18 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -668,7 +659,7 @@ function Reviews(_ref) {
 }
 
 /***/ }),
-/* 19 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -803,7 +794,7 @@ function SpecialMenu(_ref) {
 }
 
 /***/ }),
-/* 20 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -879,7 +870,7 @@ function TopImg(_ref) {
 }
 
 /***/ }),
-/* 21 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -887,15 +878,11 @@ function TopImg(_ref) {
 
 var _hyperapp = __webpack_require__(0);
 
-var _hyperappReduxDevtools = __webpack_require__(12);
+var _actions = __webpack_require__(1);
 
-var _hyperappReduxDevtools2 = _interopRequireDefault(_hyperappReduxDevtools);
+var _globalState = __webpack_require__(3);
 
-var _actions = __webpack_require__(9);
-
-var _globalState = __webpack_require__(11);
-
-var _App = __webpack_require__(10);
+var _App = __webpack_require__(2);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -919,9 +906,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       console.groupEnd();
     },
     load: function load(state, actions) {}
-  },
-  mixins: [(0, _hyperappReduxDevtools2.default)()]
+  }
 });
 
 /***/ })
-],[21]);
+],[12]);
